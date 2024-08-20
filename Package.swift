@@ -23,8 +23,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/2C2P/PGWSDK-SwiftPackage", exact: "4.6.0"),
-        .package(url: "https://github.com/2C2P/PGWSDKHELPER-SwiftPackage", exact: "4.1.1")
+        .package(url: "https://github.com/2C2P/PGWSDK-SwiftPackage", exact: "4.7.0"),
+        .package(url: "https://github.com/2C2P/PGWSDKHELPER-SwiftPackage", exact: "4.2.0")
     ],
     targets: [
         .target(
@@ -36,38 +36,38 @@ let package = Package(
         ),
         .binaryTarget(
             name: "App",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/App.xcframework.zip",
-            checksum: "ccf1078fc8094327d6c3f70231e00d78c0c85d13f7bd303672d4de20c6188fac"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/App.xcframework.zip",
+            checksum: "edfa45b801ceef720988cf17d3b57e236041a6908fc543bf6cda86a03c55149c"
         ),
         .binaryTarget(
             name: "Flutter",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/Flutter.xcframework.zip",
-            checksum: "7367edd5813f7f2f1e83a20efa6da16bd7c0af767f060e69bb8e2ec1366d4caf"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/Flutter.xcframework.zip",
+            checksum: "60d61c3893ece707d3ac01f7a983debf5543ddd6c7a841d3763fe6dd77ca3876"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/FlutterPluginRegistrant.xcframework.zip",
-            checksum: "dceb6a885881c4b13b2bf66dcad9f384d9595d2a35848ccd4aa62e0354c8818d"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/FlutterPluginRegistrant.xcframework.zip",
+            checksum: "57399e84cc9f5f80fd6769a7d0c88270bfb5b3da5300504817a37b9b36f82e60"
         ),
         .binaryTarget(
             name: "image_gallery_saver",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/image_gallery_saver.xcframework.zip",
-            checksum: "750a979d92126e5f7a32ae301255368f4e2fc38833bf6471d886ab84f4a916a5"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/image_gallery_saver.xcframework.zip",
+            checksum: "993ef710b1e75536470d6aceb14acd1139d364cb8f1a489c117c40daf3ee97d5"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/path_provider_foundation.xcframework.zip",
-            checksum: "4ccc61b02e80bfd10174e81bd985566f3cab02c63ce73f4012f3eab2caf14c7b"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/path_provider_foundation.xcframework.zip",
+            checksum: "a8307a388d366d1aca284b9af7e97e3fbf6bdf3ac98f5f71621cbe8b01c526fc"
         ),
         .binaryTarget(
             name: "pgw_sdk",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/pgw_sdk.xcframework.zip",
-            checksum: "6d7527594d5e92b626067392069b7d47722989861f5675b376ed2c5f80dee622"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/pgw_sdk.xcframework.zip",
+            checksum: "2b040c7f9a8c8ed341faab8137f9751c84688213bfca186f596938d0396f2af5"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.0/webview_flutter_wkwebview.xcframework.zip",
-            checksum: "48667d637c2259cefc1fea6d8ab35485146e3c314f2491d8dba7002705d9f40d"
+            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/webview_flutter_wkwebview.xcframework.zip",
+            checksum: "7be2d996b32fd8cdb967f9593e7ad627670c615cd763e74712cb897479484b22"
         )
     ]
 )
