@@ -24,7 +24,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/2C2P/PGWSDK-SwiftPackage", exact: "4.7.0"),
-        .package(url: "https://github.com/2C2P/PGWSDKHELPER-SwiftPackage", exact: "4.2.0")
+        .package(url: "https://github.com/2C2P/PGWSDKHELPER-SwiftPackage", exact: "4.2.1")
     ],
     targets: [
         .target(
@@ -36,38 +36,38 @@ let package = Package(
         ),
         .binaryTarget(
             name: "App",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/App.xcframework.zip",
-            checksum: "edfa45b801ceef720988cf17d3b57e236041a6908fc543bf6cda86a03c55149c"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/App.xcframework.zip",
+            checksum: "8023648190d4c168590ad22c05ae4901be0178555476dceefedfbea38fa41ed3"
         ),
         .binaryTarget(
             name: "Flutter",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/Flutter.xcframework.zip",
-            checksum: "60d61c3893ece707d3ac01f7a983debf5543ddd6c7a841d3763fe6dd77ca3876"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/Flutter.xcframework.zip",
+            checksum: "fb4c188250996b3a537f4a1633c67ea2367aff9b674f784b0ad16430350be2e0"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/FlutterPluginRegistrant.xcframework.zip",
-            checksum: "57399e84cc9f5f80fd6769a7d0c88270bfb5b3da5300504817a37b9b36f82e60"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/FlutterPluginRegistrant.xcframework.zip",
+            checksum: "a0406efcdea0cb33f800d0206eca3f7c799b8057dc404173bca7cca4867d6dc0"
         ),
         .binaryTarget(
             name: "image_gallery_saver",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/image_gallery_saver.xcframework.zip",
-            checksum: "993ef710b1e75536470d6aceb14acd1139d364cb8f1a489c117c40daf3ee97d5"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/image_gallery_saver.xcframework.zip",
+            checksum: "2b030e89e25903b7747329271563fada61a27a1faaeecb212fc7d1e3e10ff94b"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/path_provider_foundation.xcframework.zip",
-            checksum: "a8307a388d366d1aca284b9af7e97e3fbf6bdf3ac98f5f71621cbe8b01c526fc"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/path_provider_foundation.xcframework.zip",
+            checksum: "dbe92667b2a1690e3fad6668424ebded4e55a62eb2f2b99f90cc166d1e3d7c6b"
         ),
         .binaryTarget(
             name: "pgw_sdk",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/pgw_sdk.xcframework.zip",
-            checksum: "2b040c7f9a8c8ed341faab8137f9751c84688213bfca186f596938d0396f2af5"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/pgw_sdk.xcframework.zip",
+            checksum: "aacf96b3b894489dbeda8d63d214ebb259761c31a91d7d4c8b4654cbb2a85007"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            url:"https://2c2p-cloudfront.s3.ap-southeast-1.amazonaws.com/devPortal/demoCode/Mobile/PGW_SDK/PGWUI/PGW_UI_SDK_iOS_v4.0.1/webview_flutter_wkwebview.xcframework.zip",
-            checksum: "7be2d996b32fd8cdb967f9593e7ad627670c615cd763e74712cb897479484b22"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.2/webview_flutter_wkwebview.xcframework.zip",
+            checksum: "965a8f826526bdf8ba282c07006f841ffa170c839ebc5abdaf37804f7da3ac63"
         )
     ]
 )
