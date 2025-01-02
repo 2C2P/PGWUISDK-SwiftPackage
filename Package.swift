@@ -36,38 +36,38 @@ let package = Package(
         ),
         .binaryTarget(
             name: "App",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/App.xcframework.zip",
-            checksum: "08b1cc6108b6554f8e6eacff6976d959e751bee8c17c7edaa763872920f89064"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/App.xcframework.zip",
+            checksum: "6f1dd6a072071094007012c36ca53845d4bbffc2d1bd34adaa479d30eb23e712"
         ),
         .binaryTarget(
             name: "Flutter",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/Flutter.xcframework.zip",
-            checksum: "6dd13dff702f9cb928ab0959b96b535a1449823029ad7f912d3ec79302320c99"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/Flutter.xcframework.zip",
+            checksum: "8e3f936c4902a988f5e0bfeee97be595537fb8acccff95d81074422ad38f1cec"
         ),
         .binaryTarget(
             name: "FlutterPluginRegistrant",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/FlutterPluginRegistrant.xcframework.zip",
-            checksum: "31026bd415b0b2c099660a2d2041bf9465843fc948dfb85aef3fa81bc8647b1d"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/FlutterPluginRegistrant.xcframework.zip",
+            checksum: "40e7d422316aad8e538d443e444a34da42dfc0e969d4e80fffbbc9fa580c2a16"
         ),
         .binaryTarget(
             name: "image_gallery_saver",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/image_gallery_saver.xcframework.zip",
-            checksum: "2938c5709029e814362ba61b26a805aeca348e9fce8d1a668c3a3d8f849e6b6a"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/image_gallery_saver.xcframework.zip",
+            checksum: "1739cd99e102e447cce4c7af8c2c551f2c92e3c14c5b967487ae435fe2ba3e0c"
         ),
         .binaryTarget(
             name: "path_provider_foundation",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/path_provider_foundation.xcframework.zip",
-            checksum: "52ccd74119b073e15ccacaace3a23279845103b2d8632c0e916ff7e14c77c644"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/path_provider_foundation.xcframework.zip",
+            checksum: "a63bffa0534b9811b278e17ad9e3cbfd29bb8e5c4f118d107ffd3426ab1fdb70"
         ),
         .binaryTarget(
             name: "pgw_sdk",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/pgw_sdk.xcframework.zip",
-            checksum: "505bd1093e98bb4aa3aa74a7041db8318fd81b7582962687eb6471e5b00b1b62"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/pgw_sdk.xcframework.zip",
+            checksum: "562cc87bccbb571aec977aa35ff58e56f42a04441cdcaeafc69718ff27574807"
         ),
         .binaryTarget(
             name: "webview_flutter_wkwebview",
-            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.3/webview_flutter_wkwebview.xcframework.zip",
-            checksum: "7596c482cc637c08660e7709c2f3fad6a0b1542e6cae70e6fb0d16855e4b46c4"
+            url:"https://d27uu9vmlo4gwh.cloudfront.net/PGW_UI_SDK_iOS_v4.0.4/webview_flutter_wkwebview.xcframework.zip",
+            checksum: "b833db6bfcdae55348cf4370a14b66539a4acd109b16d41f6f805982a70eef03"
         )
     ]
 )
